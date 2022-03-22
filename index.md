@@ -1,3 +1,3 @@
-#Ashish Ashish
-Student: University of Manitoba
+# Ashish Ashish
+Student: University of Manitoba  
 Job experience: lol
