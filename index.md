@@ -1,3 +1,7 @@
+---
+title: My resume
+---
+
 # John Smith
 
 *Bachelors of Computer Science - Computer Science Major*
