@@ -29,10 +29,10 @@
 
 ### Education
 
-**University of XXXXX,  Bachelors of Science, Major in Computer Science [Expected: December 2022]** 
+**University of XXXXX,  Bachelors of Science, Major in Computer Science** 
 
 - GPA: 3.78
-- 
+- Expected: December 2022
 
 **Google DeepMind Summer School**
 
