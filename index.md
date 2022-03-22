@@ -1,5 +1,5 @@
 ---
-title: My resume
+title: My Resume
 ---
 
 # John Smith
