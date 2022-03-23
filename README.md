@@ -12,13 +12,15 @@ To produce and host a resume on a GitHub Pages public repository using the tools
 
 - A Markdown Editor(eg. Typora, Atom)
 - A Resume formatted in Markdown
-- An account on GitHub
+- An account on GitHub 
 
- 
+   
 
 ## Instructions
 
 Here is how you can upload a resume to GitHub Pages based on principles from the popular book Modern Technical Writing by Andrew Etter:
+
+  
 
 ### Create a New Repository
 
@@ -33,7 +35,7 @@ A GitHub repository contains all of your project's files and each file's revisio
 5. We recommend adding a README to your repository.
 6. Finally, click `Create Repository`
 
-
+  
 
 ### Upload your Resume to the Repository
 
@@ -47,7 +49,7 @@ Erret discusses how Light Weight Markup languages like Markdown are superior to 
 
 GitHub Pages will host your project pages from your GitHub repository and your resume should now be available at `https://<YourGitHubUsername.github.io>/`
 
-
+  
 
 ### Themes with a Static Site Generator
 
@@ -66,23 +68,19 @@ Your resume should now have the theme 'slate'. To add a different theme to your 
 3. Under `Theme Chooser` click `Change theme`
 4. Select any of the given theme templates to view them. Once you have selected a theme, click on the `Select Theme` button. This will automatically edit your `_config.yml` file to use the theme you have selected.
 
-
+  
 
 If you have followed all these steps correctly, you should end up with a resume like this:
 
-
+  
 
 ![alt-text](https://github.com/PsychoKeyboard/PsychoKeyboard.github.io/blob/main/gif.gif)
 
-
-
-
-
-
+  
 
 If you encounter any errors, check out the FAQ or the other Resources listed below which might help you with any problems you may face.
 
-
+  
 
 ### More Resources:
 
@@ -94,7 +92,7 @@ If you encounter any errors, check out the FAQ or the other Resources listed bel
 
 4. Uploading to GitHub Pages: https://help.designmodo.com/article/startup-github-pages/#:~:text=On%20the%20upload%20page%2C%20you,select%20files%20from%20your%20computer.
 
-   
+     
 
 ### Authors and Acknowledgements
 
@@ -102,7 +100,7 @@ Minimal Theme by: https://github.com/parkr
 
 Thank you to my group members Chris Rogers, Xian Mardiros, Christian Bera and Brett Downey for the excellent feedback.
 
-
+  
 
 ### FAQs
 
@@ -115,4 +113,3 @@ Thank you to my group members Chris Rogers, Xian Mardiros, Christian Bera and Br
 2. **Why is Markdown better than the Word processor?**
 
    Markdown is an easy-to-learn text editor and has a very simple syntax compared to Word's extensive list of formatting options. Markdown's limited features mean that most of the time, the output is more readable and better structured.
-
