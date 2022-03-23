@@ -72,7 +72,7 @@ If you have followed all these steps correctly, you should end up with a resume 
 
 
 
-![Alt Text](https://www.kapwing.com/videos/623a9c5b4319ed00a027ad53)
+![alt-text](https://github.com/PsychoKeyboard/PsychoKeyboard.github.io/blob/main/gif.gif)
 
 
 
