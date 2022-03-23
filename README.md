@@ -72,7 +72,7 @@ If you have followed all these steps correctly, you should end up with a resume 
 
 
 
-<iframe src="https://giphy.com/embed/V0TFVSEe1clFdUXPlf" width="480" height="218" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/V0TFVSEe1clFdUXPlf">via GIPHY</a></p>
+![Alt Text](https://www.kapwing.com/videos/623a9c5b4319ed00a027ad53)
 
 
 
