@@ -1,85 +1,133 @@
-# README
+# How to format and host your resume on GitHub Pages
 
 
 
-1. **Title:** Assignment 2
+## Purpose
 
-2. **Purpose:** Explain how to host a resume on GitHub Pages.
+To produce and host a resume on a GitHub Pages public repository using the tools described in Andrew Etter's book Modern Technical Writing. These tools include Markdown, a Markdown editor, a static generator site like Jekyll and GitHub Pages.
 
-3. **Prerequisites:** A resume formatted in Markdown. Check out 'More Resources' on how to use Markdown.
 
-4. **Instructions:**
 
-   - Using a Lightweight Markup language: 
+## Prerequisites
 
-     To begin, we need a resume that has been formatted in a GitHub Flavored Markdown using a Markdown Editor (eg. Atom, Typora). I crafted my resume in Typora. 
+- A Markdown Editor(eg. Typora, Atom)
+- A Resume formatted in Markdown
+- An account on GitHub
 
-     
+ 
 
-   - Avoid duplication:
+## Instructions
 
-     When creating a resume, avoid duplications. Use lists and headings to divide the resume into multiple *topics*, each dealing with a specific subject so that one talking point is not described again in another topic. 
+Here is how you can upload a resume to GitHub Pages based on principles from the popular book Modern Technical Writing by Andrew Etter:
 
-     Also, include links to your projects so that you can avoid remaking your resume every time you update a project you have been working on.
+### Create a New Repository
 
-     
+In the book *Modern Technical Writing*, Etter recommends using a distributed version control system like Git and Mercurial since they allow for better performance, offline work and are superior for concurrent work on the same file. 
 
-   - Version Control:
+A GitHub repository contains all of your project's files and each file's revision history. To create a new public repository:
 
-     It is good practice to have different versions of your documents stored on an online cloud so you can view the changes made, revert back to old versions and keep the document updated. 
+1. Go to `github.com` and log into your GitHub account
+2. On the left side, next to Recent Repositories click `New`
+3. On the new page, enter `<YourGitHubUsername>.github.io`. \<YourGitHubUsername>  is the username used to create your account.
+4. Select `Public` so that others can view it.
+5. We recommend adding a README to your repository.
+6. Finally, click `Create Repository`
 
-     Here, we will use GitHub Pages to upload our resumes.
 
-     1. Create a GitHub Pages account
 
-     2. Create a new public repository and name it: GH_Username/github.io  
+### Upload your Resume to the Repository
 
-        GH_Username refers to the username of your GitHub profile
+Erret discusses how Light Weight Markup languages like Markdown are superior to the Word processor and are a better choice for creating documents in general. For this tutorial, your resume should be written and formatted in Markdown(Check out this link on how to use markdown https://www.markdownguide.org/getting-started/).
 
-     3. Click "add a new file" in your repository and upload your resume file with the name "index.md".
+1. In your repository, click `Add File`.
+2. In the drop-down menu, click `Create new file`.
+3. Name your file `index.md`.
+4. Copy over your resume to this `index.md` file
+5. Click `Commit new file` at the bottom of the page.
 
-        To maintain version control, remember to add a comment whenever you change or update your files. This would make it easier to navigate between version files.
+GitHub Pages will host your project pages from your GitHub repository and your resume should now be available at `https://<YourGitHubUsername.github.io>/`
 
-        
 
-   - Static Website:
 
-     Static websites provide portability and security to your resume and 
+### Themes with a Static Site Generator
 
-     We'll use a static site generator like Jekyll to create a website and give it a theme.
+Etter focuses on the importance of customizing a theme for your documents to improve navigation and approachability. A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. We will use Jekyll in this tutorial.
 
-     1. In your repository, create a new file and name it "_config.yml"
+To add a theme to your resume:
 
-     2. In the file, type, "theme: jekyll-theme-slate" to give it the theme Slate. 
+1. Create a new file in your repository with the name `_config.yml`
+2. In the content of this new file, type `theme: jekyll-theme-slate`.
+3. Commit this file.
 
-        You could download other jekyll themes on your computer and use those themes with your resume or go into GitHub Pages Settings and choose one of the themes available on there.
+Your resume should now have the theme 'slate'. To add a different theme to your resume you could also:
 
-        
+1. Go to the `Settings` in your repository
+2. Scroll to `Github Pages` and click the link `Check it out here!`. This will take you to GitHub Pages.
+3. Under `Theme Chooser` click `Change theme`
+4. Select any of the given theme templates to view them. Once you have selected a theme, click on the `Select Theme` button. This will automatically edit your `_config.yml` file to use the theme you have selected.
 
-   - More Resources:
 
-     1. About Markdown: https://www.markdownguide.org/getting-started/
 
-     2. How to use Markdown: https://www.youtube.com/watch?v=6A5EpqqDOdk
+If you have followed all these steps correctly, you should end up with a resume like this:
 
-     3. Andrew Etter's Book: Modern Technical Writing: https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS
 
-     4. Uploading to GitHub Pages: https://help.designmodo.com/article/startup-github-pages/#:~:text=On%20the%20upload%20page%2C%20you,select%20files%20from%20your%20computer.
 
-        
+```
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+```
 
-5. **Authors and Acknowledgements:**
 
-   Minimal Theme by: https://github.com/parkr
 
-6. **FAQS:**
 
-   1. How long until my website updates?
 
-      The first time you generate your site it will take about 10 minutes for it to show up. Subsequent builds take only seconds from the time you push the changes to your GitHub repository.
 
-      However, depending on how you have your domain configured, there may be extra time for the CDN cache to break.
 
-   2. Why is Markdown better than the Word processor?
+If you encounter any errors, check out the FAQ or the other Resources listed below which might help you with any problems you may face.
 
-      Markdown is an easy-to-learn text editor and has a very simple syntax compared to Word's extensive list of formatting options. Markdown's limited features mean that most of the time, the output is more readable and better structured.
+
+
+### More Resources:
+
+1. About Markdown: https://www.markdownguide.org/getting-started/
+
+2. How to use Markdown: https://www.youtube.com/watch?v=6A5EpqqDOdk
+
+3. Andrew Etter's Book: Modern Technical Writing: https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS
+
+4. Uploading to GitHub Pages: https://help.designmodo.com/article/startup-github-pages/#:~:text=On%20the%20upload%20page%2C%20you,select%20files%20from%20your%20computer.
+
+   
+
+### Authors and Acknowledgements
+
+Minimal Theme by: https://github.com/parkr
+
+Thank you to my group members Chris Rogers, Xian Mardiros, Christian Bera and Brett Downey for the excellent feedback.
+
+
+
+### FAQs
+
+1. **How long until my website updates?**
+
+   The first time you generate your site it will take about 10 minutes for it to show up. Subsequent builds take only seconds from the time you push the changes to your GitHub repository.
+
+   However, depending on how you have your domain configured, there may be extra time for the CDN cache to break.
+
+2. **Why is Markdown better than the Word processor?**
+
+   Markdown is an easy-to-learn text editor and has a very simple syntax compared to Word's extensive list of formatting options. Markdown's limited features mean that most of the time, the output is more readable and better structured.
+
+
+
+
+
+
+
+need to do
+
+add some gif to the readme file
+
+add to authors and acknowledgements
+
+review resume
