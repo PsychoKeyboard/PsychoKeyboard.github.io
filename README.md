@@ -47,7 +47,7 @@ Erret discusses how Light Weight Markup languages like Markdown are superior to 
 4. Copy over your resume to this `index.md` file
 5. Click `Commit new file` at the bottom of the page.
 
-GitHub Pages will host your project pages from your GitHub repository and your resume should now be available at `https://<YourGitHubUsername.github.io>/`
+GitHub Pages will host your project pages from your GitHub repository and your resume should now be available at `https://<YourGitHubUsername>.github.io/`
 
   
 
