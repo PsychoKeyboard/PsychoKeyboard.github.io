@@ -72,7 +72,7 @@ If you have followed all these steps correctly, you should end up with a resume 
 
 
 
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://media.giphy.com/media/Qjybp8Tx0XxGZtC6va/giphy.gif" width="200" height="400" />
 
 
 
@@ -116,16 +116,3 @@ Thank you to my group members Chris Rogers, Xian Mardiros, Christian Bera and Br
 
    Markdown is an easy-to-learn text editor and has a very simple syntax compared to Word's extensive list of formatting options. Markdown's limited features mean that most of the time, the output is more readable and better structured.
 
-
-
-
-
-
-
-need to do
-
-add some gif to the readme file
-
-add to authors and acknowledgements
-
-review resume
