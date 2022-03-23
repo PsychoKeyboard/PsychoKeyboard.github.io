@@ -72,7 +72,7 @@ If you have followed all these steps correctly, you should end up with a resume 
 
 
 
-<img src="https://media.giphy.com/media/Qjybp8Tx0XxGZtC6va/giphy.gif" width="1000" height="1000" />
+![Alt Text](https://media.giphy.com/media/oAkxccxCILyk5Caifz/giphy.gif)
 
 
 
