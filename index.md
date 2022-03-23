@@ -8,14 +8,14 @@ title: My Resume
 
 
 
-### Technical Skills
+## Technical Skills
 
 1. **Languages:** HTML5, C#, PHP, C++, Python, Java, JavaScript, R, SQL 
 2. **Tools and Technologies:** RStudio, Unity, Unreal Engine, MySQL, Git
 
 
 
-### Experience
+## Experience
 
 - **XXXXX Internships(Recruitment Agency), Software Engineer**
 
@@ -31,7 +31,7 @@ title: My Resume
 
 
 
-### Education
+## Education
 
 **University of XXXXX,  Bachelors of Science, Major in Computer Science** 
 
